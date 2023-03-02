@@ -1,0 +1,32 @@
+{
+  "name": "jay-theme",
+  "displayName": "Jay's Theme",
+  "description": "Theme for HTML, CSS, and JavaScript.",
+  "version": "0.0.1",
+  "publisher": "JayDoesJS",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydoesjs/theme"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "jaydoesjs",
+    "jay's theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jay's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  }
+}
